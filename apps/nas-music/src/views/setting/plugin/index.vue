@@ -1,8 +1,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue';
-import { useRouter } from 'vue-router';
 import { Page } from '@vben/common-ui';
-import { NCard, NUpload, NUploadDragger, NText, NP, NIcon, NInput, NInputGroup, NButton, NSpin } from 'naive-ui'
+import { NCard, NUpload, NUploadDragger, NText, NIcon, NInput, NInputGroup, NButton, NSpin } from 'naive-ui'
 import { IconifyIcon } from '@vben/icons';
 import { batchImportPluginsApi, getPluginListApi, uploadPluginApi, deletePluginApi } from '#/api';
 import { message } from '#/adapter/naive';

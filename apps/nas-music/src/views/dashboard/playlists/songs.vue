@@ -78,6 +78,7 @@ const gridOptions: VxeGridProps<RowType> = {
 };
 
 const [Grid, gridApi] = useVbenVxeGrid({ gridOptions });
+
 </script>
 
 <template>
